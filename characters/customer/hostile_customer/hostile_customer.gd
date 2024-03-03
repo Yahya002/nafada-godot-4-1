@@ -1,5 +1,7 @@
 extends CharacterBody3D
 
+var hostile: bool = true
+
 @onready var visuals = $Visuals
 @onready var animator: AnimationTree = $AnimationTree
 @onready var msm = $MovementStateMachine

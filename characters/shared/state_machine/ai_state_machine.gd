@@ -34,7 +34,7 @@ func process_physics(delta: float) -> void:
 		change_state(new_state)
 
 func process_decision() -> void:
-	var new_state = current_state._process_decison()
+	var new_state = current_state._process_decision()
 	if new_state:
 		change_state(new_state)
 
